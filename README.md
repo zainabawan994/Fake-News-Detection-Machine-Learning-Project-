@@ -67,6 +67,3 @@ The following preprocessing steps were applied:
 - Precision: 0.98
 - Recall:    0.96
 - F1-score:   0.97
-
-```python id="pre1"
-df['content'] = df['title'] + " " + df['text']
