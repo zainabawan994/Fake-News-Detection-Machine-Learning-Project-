@@ -45,28 +45,28 @@ The following preprocessing steps were applied:
 # Logistic Regression Results
 ## Accuracy: 0.9512 (95.12%)
 
--Class 0 (Fake):
--Precision: 0.94
--Recall:    0.96
--F1-score:   0.95
+- Class 0 (Fake):
+- Precision: 0.94
+- Recall:    0.96
+- F1-score:   0.95
 
--Class 1 (Real):
--Precision: 0.96
--Recall:    0.94
--F1-score:   0.95
+- Class 1 (Real):
+- Precision: 0.96
+- Recall:    0.94
+- F1-score:   0.95
 
 # Support Vector Machine (SVM) Results
 ## Accuracy: 0.9686 (96.86%)
 
--Class 0 (Fake):
--Precision: 0.96
--Recall:    0.97
--F1-score:   0.97
+- Class 0 (Fake):
+- Precision: 0.96
+- Recall:    0.97
+- F1-score:   0.97
 
--Class 1 (Real):
--Precision: 0.98
--Recall:    0.96
--F1-score:   0.97
+- Class 1 (Real):
+- Precision: 0.98
+- Recall:    0.96
+- F1-score:   0.97
 
 ```python id="pre1"
 df['content'] = df['title'] + " " + df['text']
